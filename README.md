@@ -5,6 +5,7 @@ This was quickly thrown together to delete thousands of Sripe products.
 It could be done better, but its hopefully a once off job. I am just putting on Github incase it is of use to anyone else, but consider it unsupported.
 
 The reasoning behind this extension is that the Stripe API does not seem to allow for deleting of products whith prices attached and you can only archive prices using the API.
+https://github.com/stripe/stripe-python/issues/658
 
 You can delete these through the website admin though.
 
