@@ -22,3 +22,15 @@ Another method is Python and Selenium https://github.com/MilovanTomasevic/stripe
 
 This will then go through one-by-one deleting each price and product
 
+# Delete using Dashboard
+
+There is also a nodejs script which can use the dashboard for deleting which is a lot faster than the extension but is more difficult to get going.
+
+This script uses a combination of dashboard delete requests for deleting prices with the API product delete
+
+- The first step is to go to your product page, open the network tab and delete a product
+- Grab right click on the network request that appears for the delete request
+- Copy as curl request
+- Update the header section of the dashboard-delete.js with the headers from your curl request
+- Install the node stripe and axios modules
+- run the script node dashboard-delete.js
